@@ -14,9 +14,9 @@ class Flight():
         return self.capacity-len(self.passengers)   
     
     
-fli=Flight(3)
+fli=Flight(10)
 
-people=['poorna','pankaj','naveen','navya']
+people=['poorna','pankaj','navya','naveen','neha']
 for person in people:
     # success=
     if fli.add_passengers(person):
